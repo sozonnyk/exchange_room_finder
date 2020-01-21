@@ -1,0 +1,5 @@
+#!/bin/bash
+
+basename=`basename "$BASH_SOURCE"`
+dir=`dirname "$BASH_SOURCE"`
+cd $dir && pipenv run python $dir/exchange-room-finder.py

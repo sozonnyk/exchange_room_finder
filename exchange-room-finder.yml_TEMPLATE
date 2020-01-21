@@ -1,0 +1,11 @@
+primary_email: <your main email address>
+server: outlook.office365.com
+
+# Modify this list to leave rooms relevant to you
+# Exchange has a hard limit on a number of results
+# it can return for a search. This is why the list
+# is split per levels
+rooms_prefixes:
+    - CBS Lvl 05
+    - CBS Lvl 06
+    - CBS Lvl 07
